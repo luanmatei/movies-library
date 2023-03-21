@@ -21,7 +21,7 @@ const NavBar = () => {
                 <Link to="/"><BiCameraMovie/>Movies Library</Link>
             </h2>       
             <form onSubmit={handleSubmit}>
-                <input type="text" placeholder='Write Here' 
+                <input type="text" placeholder='Look for movies here' 
                 onChange={(e)=> setSearch(e.target.value)}
                 value={search}
                 />
