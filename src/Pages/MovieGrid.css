@@ -58,3 +58,11 @@ h2{
     background-color: transparent;
     color: #f7d354;
 }
+
+.container-error h1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    
+}
